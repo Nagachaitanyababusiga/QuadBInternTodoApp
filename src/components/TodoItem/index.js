@@ -7,7 +7,7 @@ const TodoItem =(props)=>{
     const deletethis=()=>{
         deleteATodo(id);
     }
-    //console.log(id);
+    console.log(TodoContent)
     return (
     <li className='todo-item'>
         <p>{title}</p>
