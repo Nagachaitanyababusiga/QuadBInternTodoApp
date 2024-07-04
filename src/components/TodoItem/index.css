@@ -1,0 +1,25 @@
+.todo-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: linear-gradient(to right,rgb(123, 6, 123),rgb(145, 104, 145));
+    color: aliceblue;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    height: 60px;
+    width: 60%;
+}
+
+.delete-btn{
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(112, 205, 211);
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}

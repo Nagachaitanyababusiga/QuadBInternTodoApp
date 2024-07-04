@@ -3,10 +3,17 @@ import './index.css'
 const TodoItem =(props)=>{
     const {TodoContent} = props;
     const {id,title}=TodoContent;
-    console.log(id);
+    const {deleteATodo}=props;
+    const deletethis=()=>{
+        deleteATodo(id);
+    }
+    //console.log(id);
     return (
-    <li>
+    <li className='todo-item'>
         <p>{title}</p>
+        <button onClick={deletethis} className='delete-btn' >
+            <p>Delete</p>
+        </button>
     </li>
     )
 }

@@ -42,29 +42,36 @@
     margin: 10px;
     color: #333333; /* Text color for readability */
 }
+
+.input-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
 .input-element {
     outline: none;
-    padding: 10px;
-    margin: 5px 0;
     border: 1px solid #cccccc;
     border-radius: 10px;
+    padding:10px;
     width: 90%;
-    background: linear-gradient(135deg, #ffffff 0%, #d3d3d3 100%);
-    color: #333333; /* Text color for readability */
+    margin-right: 10px;
+    background: linear-gradient(135deg, #dfb8b8 0%, #9e7373 100%);
+    color: aliceblue;
+    font-weight: bold;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card-like shadow effect */
 }
 
-.label-element {
-    font-family: 'Arial', sans-serif;
-    font-size: 16px;
+.addbtn{
+    outline: none;
+    background-color: rgb(56, 242, 56);
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #cccccc;
+    color: #a63f5b;
     font-weight: bold;
-    color: #333333; /* Text color for contrast */
-    padding: 10px;
-    margin: 10px 0;
-    background: linear-gradient(135deg, #ffffff 0%, #d3d3d3 100%);
-    border-radius: 10px;
-    display: inline-block;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Card-like shadow effect */
 }
 
 .list-cont{
@@ -73,4 +80,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80%;
 }
