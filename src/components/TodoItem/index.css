@@ -1,82 +1,108 @@
-.todo-item-incomplete{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-image: linear-gradient(to right,rgb(123, 6, 123),rgb(145, 104, 145));
-    color: aliceblue;
-    font-weight: bold;
-    border-radius: 15px;
-    margin-bottom: 5px;
-    height: 100px;
-    width: 80%;
+.todo-item-incomplete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(123, 6, 123),
+    rgb(145, 104, 145)
+  );
+  color: aliceblue;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  height: 100px;
+  width: 80%;
 }
 
-.todo-item-complete{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-image: linear-gradient(to right,rgb(131, 190, 137),rgb(89, 211, 138));
-    color: rgb(12, 15, 17);
-    font-weight: bold;
-    border-radius: 15px;
-    margin-bottom: 5px;
-    height: 100px;
-    width: 80%;
+.todo-item-complete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(131, 190, 137),
+    rgb(89, 211, 138)
+  );
+  color: rgb(12, 15, 17);
+  font-weight: bold;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  height: 100px;
+  width: 80%;
 }
 
-.button-cont{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.button-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.delete-btn{
-    margin-left: 8px;
-    width: 80px;
+.delete-btn {
+  margin-left: 8px;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(112, 205, 211);
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.edit-btn {
+  margin-left: 8px;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(211, 203, 112);
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.status-btn-complete {
+  margin-left: 8px;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgb(117, 211, 112);
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.status-btn-incomplete {
+  margin-left: 8px;
+  width: 80px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: red;
+  color: rgb(117, 211, 112);
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (max-width: 575px) {
+  .todo-item-complete {
+    min-width: 100%;
+  }
+  .todo-item-incomplete {
+    min-width: 100%;
+  }
+
+  .delete-btn,
+  .edit-btn,
+  .status-btn-complete,
+  .status-btn-incomplete {
     height: 40px;
-    border-radius: 5px;
-    background-color: rgb(112, 205, 211);
-    color: red;
-    font-weight: bold;
-    text-align: center;
-}
-
-.edit-btn{
-    margin-left: 8px;
-    width: 80px;
-    height: 40px;
-    border-radius: 5px;
-    background-color: rgb(211, 203, 112);
-    color: red;
-    font-weight: bold;
-    text-align: center;
-}
-
-.status-btn-complete{
-    margin-left: 8px;
-    width: 80px;
-    height: 40px;
-    border-radius: 5px;
-    background-color: rgb(117, 211, 112);
-    color: red;
-    font-weight: bold;
-    text-align: center;
-}
-
-.status-btn-incomplete{
-    margin-left: 8px;
-    width: 80px;
-    height: 40px;
-    border-radius: 5px;
-    background-color: red;
-    color: rgb(117, 211, 112);
-    font-weight: bold;
-    text-align: center;
+    width: 60px;
+    font-size: xx-small;
+  }
 }
