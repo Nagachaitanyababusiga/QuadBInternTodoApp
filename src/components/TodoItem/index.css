@@ -1,7 +1,7 @@
-.todo-item{
+.todo-item-incomplete{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
@@ -10,16 +10,73 @@
     font-weight: bold;
     border-radius: 15px;
     margin-bottom: 5px;
-    height: 60px;
-    width: 60%;
+    height: 100px;
+    width: 80%;
+}
+
+.todo-item-complete{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: linear-gradient(to right,rgb(131, 190, 137),rgb(89, 211, 138));
+    color: rgb(12, 15, 17);
+    font-weight: bold;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    height: 100px;
+    width: 80%;
+}
+
+.button-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .delete-btn{
+    margin-left: 8px;
     width: 80px;
     height: 40px;
     border-radius: 5px;
     background-color: rgb(112, 205, 211);
     color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.edit-btn{
+    margin-left: 8px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(211, 203, 112);
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.status-btn-complete{
+    margin-left: 8px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(117, 211, 112);
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.status-btn-incomplete{
+    margin-left: 8px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: red;
+    color: rgb(117, 211, 112);
     font-weight: bold;
     text-align: center;
 }
