@@ -14,8 +14,8 @@ Welcome to the **Todo App**! This is a simple yet powerful application built wit
 
 You can view the project demo below:
 
-<img src="https://s12.gifyu.com/images/StbRS.gif" width="200" />
-<img src="https://s10.gifyu.com/images/Stb82.gif" width="200" />
+<img src="https://s12.gifyu.com/images/StbRS.gif" width="400" />
+<img src="https://s10.gifyu.com/images/Stb82.gif" width="400" />
 
 
 Visit TodoApp website: [QuadBtodobabu.ccbp.tech](https://QuadBtodobabu.ccbp.tech)
